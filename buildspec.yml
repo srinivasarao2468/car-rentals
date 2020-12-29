@@ -9,6 +9,7 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
+      - ls -al
 artifacts:
   files:
     - target/car-rentals*/*
